@@ -32,7 +32,7 @@ const ProductList = props => {
       </div>
       <div className="row justify-content-center">
         <div className="col-12 d-flex justify-content-center"></div>
-        {products.productsPending ? (
+        {products.isLoading ? (
           <div className="text-center">
             <div
               className="spinner-border custom-spin text-secondary"

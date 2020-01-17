@@ -13,13 +13,13 @@ export default function products(state = initialState, action) {
   switch (action.type) {
     case FETCH_PRODUCT_REQUESTED:
     return {
-        productsPending: true,
+        isLoading: true,
       }
     case FETCH_PRODUCT_SUCCESS:
     return {
       ...state,
       products: action.products,
-      productsPending: false,
+      isLoading: false,
     };
     case FETCH_PRODUCT_FAILURE:
       return {
