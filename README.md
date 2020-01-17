@@ -15,3 +15,4 @@ You will also see any lint errors in the console.
 ---
 Please see the `screenshot` to see the view
 ![screenshot](screenshots/Home.PNG)
+![screenshot](screenshots/NotAvailable.PNG)
